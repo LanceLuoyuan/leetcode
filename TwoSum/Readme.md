@@ -1,8 +1,8 @@
-# 1.Á½¸ö±éÀú
-* Ê±¼ä¸´ÔÓ¶ÈO£¨n^2£©
-* ¿Õ¼ä¸´ÔÓ¶ÈO£¨1£©
+# 1.ä¸¤ä¸ªéå†
+* æ—¶é—´å¤æ‚åº¦Oï¼ˆn^2ï¼‰
+* ç©ºé—´å¤æ‚åº¦Oï¼ˆ1ï¼‰
 
-'''
+Â·Â·Â·cpp
 public int[] twoSum(int[] nums, int target) {
     for (int i = 0; i < nums.length; i++) {
         for (int j = i + 1; j < nums.length; j++) {
@@ -13,11 +13,12 @@ public int[] twoSum(int[] nums, int target) {
     }
     throw new IllegalArgumentException("No two sum solution");
 }
-'''
+```
 
-# 2.Ò»¸ö±éÀú£¬ÓÃ¹şÏ£±í½«Êı×é±£´æÆğÀ´
-* Ê±¼ä¸´ÔÓ¶ÈO£¨n£©
-* ¿Õ¼ä¸´ÔÓ¶ÈO£¨n£©
+# 2.ä¸€ä¸ªéå†ï¼Œç”¨å“ˆå¸Œè¡¨å°†æ•°ç»„ä¿å­˜èµ·æ¥
+* æ—¶é—´å¤æ‚åº¦Oï¼ˆnï¼‰
+* ç©ºé—´å¤æ‚åº¦Oï¼ˆnï¼‰
+```cpp
 class Solution{
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
@@ -37,3 +38,4 @@ public:
 	
 	}
 }
+```
